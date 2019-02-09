@@ -1,0 +1,22 @@
+{
+  "name": "seemannit/orderremarkinlaststep",
+  "description": "OrderRemarkInLastStep Module",
+  "type": "oxideshop-module",
+  "homepage": "https://www.oxid-responsive.com",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": [
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "seemannit/orderremarkinlaststep"
+    }
+  },
+  "autoload": {
+      "psr-4": {
+          "SeemannIT\\OrderRemarkInLastStepModule\\": "../../../source/modules/seemannit/orderremarkinlaststep"
+      }
+  }
+}
